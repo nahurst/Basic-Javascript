@@ -39,5 +39,6 @@ UTIL = {
   }
 };
 
-$(document).ready(UTIL.init);
+//document.observe("dom:loaded", UTIL.init); //prototype
+$(document).ready(UTIL.init); //jquery
 
