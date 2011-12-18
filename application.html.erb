@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <%= javascript_include_tag "application" %>
+</head>
+<body class="<%= 'group' if @group %>"
+      data-controller="<%= controller.controller_name %>"
+      data-action="<%= controller.action_name %>">
+</body>
+</html>
